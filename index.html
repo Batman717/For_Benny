@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For You ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="scene">
+    <div class="stars" aria-hidden="true"></div>
+
+    <section class="love-card">
+      <div class="heart-wrap">
+        <button id="heartBtn" class="heart-btn" aria-label="Send love">
+          <span class="heart">♥</span>
+        </button>
+      </div>
+
+      <p class="hint">Tap the heart ❤️</p>
+
+
+    </section>
+
+    <div class="music-pill">
+      <button id="playBtn" class="play-btn" aria-label="Play or pause song">▶</button>
+      <div class="music-info">
+        <div class="music-title">I dedicate this song to you ❤️</div>
+        <div class="music-progress-row">
+          <span id="currentTime">0:00</span>
+          <div id="progressBar" class="progress-bar" title="Seek">
+            <div id="progressFill" class="progress-fill"></div>
+          </div>
+          <span id="duration">0:00</span>
+        </div>
+      </div>
+      <span class="music-heart">♥</span>
+    </div>
+    <audio id="audioPlayer" src="sooong.mp3" preload="metadata"></audio>
+
+    <div id="phrases" class="phrases" aria-live="polite"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
