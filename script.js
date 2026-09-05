@@ -27,7 +27,7 @@ const messages = [
   "With you time stops ⏲️❤️",
   "You're my favourite refuge",
   "You're my home",
-  "❤️The one and only Fofo❤️"
+  "❤️The one and only Benny❤️"
 ];
 
 let messageIndex = 0;
